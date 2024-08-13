@@ -7,11 +7,11 @@
     <h1>HTML FORMS ELEMENT</h1>
     <form >
         <label for="username">Enter your username :</label>
-        <input type="username" id="username"> <br> <br>
+        <input type="username" id="username" name="username" required> <br> <br>
         <label for="password">Enter your password :</label>
-        <input type="password" name="" id="password"> <br><br>
+        <input type="password" name="" id="password" name="password"  required> <br><br>
         <label for="Email">Enter your Email ID :</label>
-        <input type="email" name="" id="Email"><br><br>
+        <input type="email" name="" id="Email" name="email" required><br><br>
         <p>Select your age: </p> 
         <input type="radio" name="age" value="0-25" id="option1">
         <label for="option1">0-25</label>
@@ -29,8 +29,12 @@
         </select>
         <br><br>
         <label for="answer">security question answer:</label>
-        <input type="answer" name="answer" id="answer">
+        <input type="answer" name="answer" id="answer"> <br><br>
 
+        <label for="bio">Add your bio.</label> <br>
+        <textarea name="bio" id="bio" cols="40" rows="10" placeholder="Write your bio here..."></textarea>
+        <br><br>
+        <input type="submit" value="Submit the form">
     </form>
 
 </body>
