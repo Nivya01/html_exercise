@@ -1,0 +1,30 @@
+ #para{ 
+    color: rgb(1, 1, 1);
+    text-align: justify;
+    line-height: 30px;
+    letter-spacing: 2px;
+    column-gap: 60px;
+    margin: 5%;
+    font-size: 20px;
+    border: 4px ridge salmon ;
+    
+} 
+#myHeader{
+    text-shadow: 2px 2px #562d2d;
+    color: rgb(249, 2, 2);
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: bisque;
+    position: sticky;
+    top: 0;
+
+}
+#main{
+    background-color: rgb(234, 214, 189);
+}
+
+.fearless{
+    text-decoration: underline;
+}
