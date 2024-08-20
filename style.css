@@ -24,6 +24,7 @@ ul {
 }
 li{
     list-style-type: none;
-    text-shadow: 2px 2px #22eebb;
+    text-shadow: 2px 2px #1f6969;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     /* text-shadow: 2px 2px lightgray; */
 }
